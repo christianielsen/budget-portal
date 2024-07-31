@@ -8,28 +8,28 @@ const router = useRouter();
 const items = ref([
   {
     label: "Monthly",
-    icon: "pi pi-home",
+    icon: "fa-solid fa-calendar",
     command: () => {
       router.push("/");
     },
   },
   {
     label: "Weekly",
-    icon: "pi pi-star",
+    icon: "fa-solid fa-7",
     command: () => {
       router.push("/weekly");
     },
   },
   {
     label: "Graph",
-    icon: "pi pi-search",
+    icon: "fa-solid fa-chart-simple",
     command: () => {
       router.push("/graph");
     },
   },
   {
     label: "Settings",
-    icon: "pi pi-envelope",
+    icon: "fa-solid fa-gear",
     command: () => {
       router.push("/settings");
     },
